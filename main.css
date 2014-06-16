@@ -1,1 +1,22 @@
 /* ADD YOUR STYLES HERE */
+.data tr{
+	border-bottom: 1px solid #ccc;
+}
+
+.data tr:last-child{
+	border-bottom: none;
+}
+
+.data td{
+	padding: 10px 120px 10px 0px;
+}
+
+.data td:first-child{
+	padding-right: 60px;
+}
+
+.data th{
+	font-weight: bold;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
